@@ -1,0 +1,67 @@
+/* Header.css */
+.header {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .button{
+    
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .section-dropdowns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  
+  .section-dropdown {
+    position: relative;
+    margin: 5px;
+  }
+  
+  .section-button,
+  .subsection-button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .section-button.active,
+  .subsection-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .subsection-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 120px; /* Set a minimum width for the dropdown */
+  }
+  
+  .subsection-dropdown a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    transition: background-color 0.2s;
+  }
+  
+  .subsection-dropdown a:hover {
+    background-color: #ddd;
+  }
+  
